@@ -1,11 +1,11 @@
 import {
-  ArrowPathIcon,
   ChevronRightIcon,
-  CloudArrowUpIcon,
-  Cog6ToothIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ServerIcon,
+  ShieldCheckIcon,
+  GlobeAltIcon,
+  DevicePhoneMobileIcon,
+  EllipsisHorizontalCircleIcon,
+  ChartBarIcon,
+  WrenchIcon,
 } from "@heroicons/react/20/solid";
 import {
   BoltIcon,
@@ -16,70 +16,70 @@ import { SVGProps } from "react";
 
 const primaryFeatures = [
   {
-    name: "Server monitoring",
+    name: "IoT Monitoring",
     description:
-      "Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.",
+      "Monitoramento avançado para rastreamento e segurança de ativos em tempo real.",
     href: "#",
     icon: BoltIcon,
   },
   {
-    name: "Collaborate",
+    name: "Integração com Software",
     description:
-      "Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.",
+      "Soluções completas de software para análise e gerenciamento de dados IoT.",
     href: "#",
     icon: UsersIcon,
   },
   {
-    name: "Task scheduling",
+    name: "Automação Inteligente",
     description:
-      "Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.",
+      "Automatize processos e aumente a eficiência com nossos sistemas inteligentes.",
     href: "#",
     icon: CalendarDaysIcon,
   },
 ];
 const secondaryFeatures = [
   {
-    name: "Push to deploy.",
+    name: "Conformidade Certificada",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
-    icon: CloudArrowUpIcon,
+      "Dispositivos homologados pela ANATEL, FCC e CE, garantindo qualidade e confiança.",
+    icon: ShieldCheckIcon,
   },
   {
-    name: "SSL certificates.",
+    name: "Cobertura Global",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: LockClosedIcon,
+      "Soluções de rastreamento com alcance internacional para monitoramento além-fronteiras.",
+    icon: GlobeAltIcon,
   },
   {
-    name: "Simple queues.",
+    name: "Aplicativo Móvel Intuitivo",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.",
-    icon: ArrowPathIcon,
+      "Configure e monitore seus dispositivos facilmente através do nosso app mobile.",
+    icon: DevicePhoneMobileIcon,
   },
   {
-    name: "Advanced security.",
+    name: "Suporte Dedicado",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.",
-    icon: FingerPrintIcon,
+      "Equipe de suporte pronta para auxiliar em todas as etapas, garantindo uma experiência tranquila.",
+    icon: EllipsisHorizontalCircleIcon,
   },
   {
-    name: "Powerful API.",
+    name: "Análise de Dados Avançada",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: Cog6ToothIcon,
+      "Ferramentas de análise que transformam dados em insights acionáveis para o seu negócio.",
+    icon: ChartBarIcon,
   },
   {
-    name: "Database backups.",
+    name: "Manutenção Remota",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ",
-    icon: ServerIcon,
+      "Atualizações e diagnósticos realizados remotamente, reduzindo o tempo de inatividade.",
+    icon: WrenchIcon,
   },
 ];
 const stats = [
-  { id: 1, name: "Developers on the platform", value: "8,000+" },
-  { id: 2, name: "Daily requests", value: "900m+" },
-  { id: 3, name: "Uptime guarantee", value: "99.9%" },
-  { id: 4, name: "Projects deployed", value: "12m" },
+  { id: 1, name: "Clientes Ativos", value: "3.500+" },
+  { id: 2, name: "Dispositivos Vendidos", value: "3.1M+" },
+  { id: 3, name: "Tempo de Atividade", value: "99.9%" },
+  { id: 4, name: "Soluções Implementadas", value: "15+" },
 ];
 const footerNavigation = {
   solutions: [
@@ -109,7 +109,7 @@ const footerNavigation = {
   social: [
     {
       name: "Facebook",
-      href: "#",
+      href: "https://www.facebook.com/bwsiot",
       icon: (props: SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -122,7 +122,7 @@ const footerNavigation = {
     },
     {
       name: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/bwsiot/",
       icon: (props: SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -133,18 +133,18 @@ const footerNavigation = {
         </svg>
       ),
     },
-    {
-      name: "X",
-      href: "#",
-      icon: (props: SVGProps<SVGSVGElement>) => (
-        <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
-        </svg>
-      ),
-    },
+    // {
+    //   name: "X",
+    //   href: "#",
+    //   icon: (props: SVGProps<SVGSVGElement>) => (
+    //     <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+    //       <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
+    //     </svg>
+    //   ),
+    // },
     {
       name: "GitHub",
-      href: "#",
+      href: "https://github.com/BWS-SOFT",
       icon: (props: SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -157,7 +157,7 @@ const footerNavigation = {
     },
     {
       name: "YouTube",
-      href: "#",
+      href: "https://www.youtube.com/channel/UCTT2zyI52SwIlDIDHf3gdfQ",
       icon: (props: SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -227,11 +227,11 @@ export default function Example() {
               />
               <div className="mt-24 sm:mt-32 lg:mt-16">
                 <a href="#" className="inline-flex space-x-6">
-                  <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm/6 font-semibold text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
-                    What&apos;s new
+                  <span className="rounded-full bg-blue-500/10 px-3 py-1 text-sm/6 font-semibold text-blue-400 ring-1 ring-inset ring-blue-500/20">
+                    Novidade
                   </span>
                   <span className="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-300">
-                    <span>Just shipped v1.0</span>
+                    <span>Lora+NB</span>
                     <ChevronRightIcon
                       aria-hidden="true"
                       className="size-5 text-gray-500"
@@ -243,13 +243,13 @@ export default function Example() {
                 Wfc Technology
               </h1>
               <p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
+                Soluções inovadoras para rastreamento, IoT e desenvolvimento de
+                software.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="#"
-                  className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
                 >
                   Get started
                 </a>
@@ -275,7 +275,7 @@ export default function Example() {
         {/* Logo cloud */}
         <div className="mx-auto mt-8 max-w-7xl px-6 sm:mt-16 lg:px-8">
           <h2 className="text-center text-lg/8 font-semibold text-white">
-            Empresas que somos parceiras
+            Nossos parceiros
           </h2>
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <img
@@ -319,16 +319,15 @@ export default function Example() {
         {/* Feature section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base/7 font-semibold text-indigo-400">
-              Deploy faster
+            <h2 className="text-base/7 font-semibold text-blue-400">
+              Implementação Rápida
             </h2>
             <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-balance">
-              Everything you need to deploy your app
+              Tudo que você precisa para integrar soluções IoT
             </p>
             <p className="mt-6 text-lg/8 text-gray-300">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
+              Desde rastreamento inteligente até softwares personalizados,
+              oferecemos soluções que aceleram sua transformação digital.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -336,7 +335,7 @@ export default function Example() {
               {primaryFeatures.map((feature) => (
                 <div key={feature.name} className="flex flex-col">
                   <dt className="text-base/7 font-semibold text-white">
-                    <div className="mb-6 flex size-10 items-center justify-center rounded-lg bg-indigo-500">
+                    <div className="mb-6 flex size-10 items-center justify-center rounded-lg bg-blue-500">
                       <feature.icon
                         aria-hidden="true"
                         className="size-6 text-white"
@@ -349,9 +348,9 @@ export default function Example() {
                     <p className="mt-6">
                       <a
                         href={feature.href}
-                        className="text-sm/6 font-semibold text-indigo-400"
+                        className="text-sm/6 font-semibold text-blue-400"
                       >
-                        Learn more <span aria-hidden="true">→</span>
+                        Saiba mais <span aria-hidden="true">→</span>
                       </a>
                     </p>
                   </dd>
@@ -365,16 +364,15 @@ export default function Example() {
         <div className="mt-32 sm:mt-56">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl sm:text-center">
-              <h2 className="text-base/7 font-semibold text-indigo-400">
-                Everything you need
+              <h2 className="text-base/7 font-semibold text-blue-400">
+                Soluções para o Futuro
               </h2>
               <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-balance sm:text-5xl">
-                No server? No problem.
+                Infraestrutura ágil e escalável
               </p>
               <p className="mt-6 text-lg/8 text-gray-300">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis.
+                Nossa tecnologia foi projetada para crescer junto com o seu
+                negócio, garantindo segurança e eficiência.
               </p>
             </div>
           </div>
@@ -387,9 +385,6 @@ export default function Example() {
                 height={1442}
                 className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-white/10"
               />
-              <div aria-hidden="true" className="relative">
-                <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-gray-900 pt-[7%]" />
-              </div>
             </div>
           </div>
           <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
@@ -399,7 +394,7 @@ export default function Example() {
                   <dt className="inline font-semibold text-white">
                     <feature.icon
                       aria-hidden="true"
-                      className="absolute left-1 top-1 size-5 text-indigo-500"
+                      className="absolute left-1 top-1 size-5 text-blue-500"
                     />
                     {feature.name}
                   </dt>{" "}
@@ -413,16 +408,15 @@ export default function Example() {
         {/* Stats */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-            <h2 className="text-base/8 font-semibold text-indigo-400">
-              Our track record
+            <h2 className="text-base/8 font-semibold text-blue-400">
+              Nossa trajetória
             </h2>
             <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-              Trusted by thousands of creators&nbsp;worldwide
+              Confiada por milhares de empresas
             </p>
             <p className="mt-6 text-lg/8 text-gray-300">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-              impedit perferendis suscipit eaque, iste dolor cupiditate
-              blanditiis.
+              Oferecemos tecnologia de ponta para rastreamento e segurança,
+              conectando empresas a soluções inovadoras.
             </p>
           </div>
           <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
@@ -485,21 +479,21 @@ export default function Example() {
           </div>
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-              Boost your productivity. Start using our app today.
+              Aumente sua produtividade com a Wfc Technology
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg/8 text-gray-300">
-              Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
-              anim id veniam aliqua proident excepteur commodo do ea.
+              Nossas soluções inteligentes de rastreamento e software garantem
+              eficiência, segurança e inovação para o seu negócio.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                Get started
+                Comece agora
               </a>
               <a href="#" className="text-sm/6 font-semibold text-white">
-                Learn more <span aria-hidden="true">→</span>
+                Saiba mais <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
@@ -515,14 +509,14 @@ export default function Example() {
                 key={item.name}
                 href={item.href}
                 className="text-gray-400 hover:text-gray-300"
+                // target="_blank"
               >
-                <span className="sr-only">{item.name}</span>
                 <item.icon aria-hidden="true" className="size-6" />
               </a>
             ))}
           </div>
           <p className="mt-8 text-center text-sm/6 text-gray-400 md:order-1 md:mt-0">
-            &copy; 2024 Your Company, Inc. All rights reserved.
+            &copy; 2025 Wfc Technology, Inc. All rights reserved.
           </p>
         </div>
       </footer>
