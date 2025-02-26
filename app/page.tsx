@@ -11,6 +11,10 @@ import {
   BoltIcon,
   CalendarDaysIcon,
   UsersIcon,
+  ComputerDesktopIcon,
+  CubeIcon,
+  DocumentTextIcon,
+  DevicePhoneMobileIcon as DevicePhoneMobileIconOutline,
 } from "@heroicons/react/24/outline";
 import { SVGProps } from "react";
 
@@ -170,6 +174,54 @@ const footerNavigation = {
     },
   ],
 };
+const applications = [
+  {
+    name: "App de Recuperação de Bens",
+    description:
+      "Aplicativo mobile para facilitar a gestão e monitoramento de bens recuperáveis.",
+    icon: DevicePhoneMobileIconOutline,
+  },
+  {
+    name: "App de Rastreamento de Ativos",
+    description:
+      "Aplicativo móvel para consulta e acompanhamento da localização de bens e ativos.",
+    icon: DevicePhoneMobileIconOutline,
+  },
+  {
+    name: "App para Instaladores",
+    description:
+      "Aplicativo móvel para técnicos realizarem instalação de equipamentos.",
+    icon: DevicePhoneMobileIconOutline,
+  },
+  {
+    name: "App para Configuração de Equipamentos",
+    description: "Aplicativo móvel para configuração de dispositivos via SMS.",
+    icon: DevicePhoneMobileIconOutline,
+  },
+  {
+    name: "Aplicativo de Configuração de Equipamentos (Desktop)",
+    description:
+      "Software para configuração de dispositivos via comunicação serial.",
+    icon: ComputerDesktopIcon,
+  },
+  {
+    name: "Biblioteca de Componentes Front-end",
+    description:
+      "Conjunto de componentes em React para padronização e reutilização na empresa.",
+    icon: CubeIcon,
+  },
+  {
+    name: "Landing Page da Empresa PRMA",
+    description:
+      "Página de divulgação da empresa de recuperação de bens e ativos.",
+    icon: DocumentTextIcon,
+  },
+  {
+    name: "Landing Page da Empresa Hybrid",
+    description: "Página de divulgação da empresa de produção de software.",
+    icon: DocumentTextIcon,
+  },
+];
 
 export default function Example() {
   return (
@@ -246,17 +298,17 @@ export default function Example() {
                 Soluções inovadoras para rastreamento, IoT e desenvolvimento de
                 software.
               </p>
-              <div className="mt-10 flex items-center gap-x-6">
+              {/* <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="#"
                   className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
                 >
-                  Get started
+                  Comece agora
                 </a>
                 <a href="#" className="text-sm/6 font-semibold text-white">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
               <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
@@ -434,6 +486,37 @@ export default function Example() {
           </dl>
         </div>
 
+        {/* Lista de Aplicações WFC */}
+        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-base/7 font-semibold text-indigo-400">
+              Lista de Aplicações WFC
+            </h2>
+            <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+              Soluções Inovadoras para Todos os Desafios
+            </p>
+            <p className="mt-6 text-lg/8 text-gray-300">
+              Conheça a variedade de aplicações desenvolvidas para atender as
+              demandas de mobilidade, desktop, componentes e presença
+              institucional.
+            </p>
+          </div>
+          <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+            {applications.map((app) => (
+              <div key={app.name} className="relative pl-9">
+                <dt className="inline font-semibold text-white">
+                  <app.icon
+                    aria-hidden="true"
+                    className="absolute left-1 top-1 size-5 text-blue-500"
+                  />
+                  {app.name}
+                </dt>{" "}
+                <dd className="inline">{app.description}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+
         {/* CTA section */}
         <div className="relative isolate mt-32 px-6 py-32 sm:mt-56 sm:py-40 lg:px-8">
           <svg
@@ -485,7 +568,7 @@ export default function Example() {
               Nossas soluções inteligentes de rastreamento e software garantem
               eficiência, segurança e inovação para o seu negócio.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            {/* <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
@@ -495,7 +578,7 @@ export default function Example() {
               <a href="#" className="text-sm/6 font-semibold text-white">
                 Saiba mais <span aria-hidden="true">→</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>
