@@ -81,7 +81,7 @@ const secondaryFeatures = [
 ];
 const stats = [
   { id: 1, name: "Clientes Ativos", value: "3.500+" },
-  { id: 2, name: "Dispositivos Vendidos", value: "3.1M+" },
+  { id: 2, name: "Dispositivos Vendidos", value: "3.2M+" },
   { id: 3, name: "Tempo de Atividade", value: "99.9%" },
   { id: 4, name: "Soluções Implementadas", value: "15+" },
 ];
@@ -272,11 +272,8 @@ export default function Example() {
           </div>
           <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
             <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-8">
-              <img
-                alt="Your Company"
-                src="https://bwsiot.com/wp-content/uploads/2023/04/Logo-BWS-IoT-Transp-Site-180-x-91.png"
-                className="h-11"
-              />
+              <img alt="Your Company" src="/logo/WFC.svg" className="h-11" />
+
               <div className="mt-24 sm:mt-32 lg:mt-16">
                 <a href="#" className="inline-flex space-x-6">
                   <span className="rounded-full bg-blue-500/10 px-3 py-1 text-sm/6 font-semibold text-blue-400 ring-1 ring-inset ring-blue-500/20">
@@ -292,7 +289,7 @@ export default function Example() {
                 </a>
               </div>
               <h1 className="mt-10 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-                Wfc Technology
+                WFC Technology
               </h1>
               <p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
                 Soluções inovadoras para rastreamento, IoT e desenvolvimento de
@@ -303,7 +300,7 @@ export default function Example() {
                   href="#"
                   className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
                 >
-                  Comece agora
+                  Conhecer mais
                 </a>
                 <a href="#" className="text-sm/6 font-semibold text-white">
                   Learn more <span aria-hidden="true">→</span>
@@ -331,39 +328,39 @@ export default function Example() {
           </h2>
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <img
-              alt="Transistor"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/transistor-logo-white.svg"
+              alt="BWS Trading"
+              src="/logo/BWS-TRADING.svg"
               width={158}
               height={48}
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             />
             <img
-              alt="Reform"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/reform-logo-white.svg"
+              alt="BWS Conecta"
+              src="/logo/BWS-CONECTA.svg"
               width={158}
               height={48}
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             />
             <img
-              alt="Tuple"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/tuple-logo-white.svg"
+              alt="ICB"
+              src="/logo/ICB.svg"
               width={158}
               height={48}
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             />
             <img
-              alt="SavvyCal"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/savvycal-logo-white.svg"
+              alt="MGC"
+              src="/logo/MGC.svg"
               width={158}
               height={48}
-              className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+              className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
             />
             <img
-              alt="Statamic"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/statamic-logo-white.svg"
+              alt="WFC"
+              src="/logo/WFC.svg"
               width={158}
               height={48}
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
             />
           </div>
         </div>
@@ -489,7 +486,7 @@ export default function Example() {
         {/* Lista de Aplicações WFC */}
         <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-base/7 font-semibold text-indigo-400">
+            <h2 className="text-base/7 font-semibold text-blue-400">
               Lista de Aplicações WFC
             </h2>
             <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
@@ -550,7 +547,7 @@ export default function Example() {
           </svg>
           <div
             aria-hidden="true"
-            className="absolute inset-x-0 top-10 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
+            className="absolute inset-x-0 top-10 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl pointer-events-none"
           >
             <div
               style={{
@@ -562,7 +559,7 @@ export default function Example() {
           </div>
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-              Aumente sua produtividade com a Wfc Technology
+              Aumente sua produtividade com a WFC Technology
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg/8 text-gray-300">
               Nossas soluções inteligentes de rastreamento e software garantem
@@ -573,7 +570,7 @@ export default function Example() {
                 href="#"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                Comece agora
+                Conhecer mais
               </a>
               <a href="#" className="text-sm/6 font-semibold text-white">
                 Saiba mais <span aria-hidden="true">→</span>
@@ -592,14 +589,14 @@ export default function Example() {
                 key={item.name}
                 href={item.href}
                 className="text-gray-400 hover:text-gray-300"
-                // target="_blank"
+                target="_blank"
               >
                 <item.icon aria-hidden="true" className="size-6" />
               </a>
             ))}
           </div>
           <p className="mt-8 text-center text-sm/6 text-gray-400 md:order-1 md:mt-0">
-            &copy; 2025 Wfc Technology, Inc. All rights reserved.
+            &copy; 2025 WFC Technology, Inc. All rights reserved.
           </p>
         </div>
       </footer>
