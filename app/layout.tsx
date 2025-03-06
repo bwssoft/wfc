@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "WFC Technology",
     images: [
       {
-        url: "/logo/WFC.svg", // Substitua pelo caminho correto da imagem
+        url: "/logo/WFC.png", // Substitua pelo caminho correto da imagem
         width: 1200, // Recomenda-se 1200x630 para melhor exibição
         height: 630,
         alt: "WFC Technology Logo",
