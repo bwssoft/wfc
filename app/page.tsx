@@ -472,7 +472,8 @@ export default function Example() {
               <img
                 alt="App screenshot"
                 src="/MOCK-MOBILE.png"
-                className="mb-[-2%] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
+                // className="mb-[-5%] rounded-md bg-black/5 shadow-2xl ring-1 ring-white/10"
+                className="border border-1 border-white/10 rounded-md"
               />
             </div>
           </div>
