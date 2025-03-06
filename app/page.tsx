@@ -335,7 +335,7 @@ export default function Example() {
                   src="/MOCK-LAPTOP.png"
                   width={2432}
                   height={1442}
-                  className="w-[76rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10"
+                  className="w-[76rem] rounded-md shadow-2xl"
                 />
               </div>
             </div>
@@ -349,8 +349,15 @@ export default function Example() {
           </h2>
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <img
-              alt="Hybrid"
-              src="/logo/HYBRID.svg"
+              alt="BWS TECHNOLOGY"
+              src="/logo/BWS-TECHNOLOGY.svg"
+              width={158}
+              height={48}
+              className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            />
+            <img
+              alt="BWS TRADING"
+              src="/logo/BWS-TRADING.svg"
               width={158}
               height={48}
               className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain lg:col-span-1"
@@ -363,8 +370,8 @@ export default function Example() {
               className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             />
             <img
-              alt="BWS Technology"
-              src="/logo/BWS-TECHNOLOGY.svg"
+              alt="Hybrid"
+              src="/logo/HYBRID.svg"
               width={158}
               height={48}
               className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain lg:col-span-1"
@@ -390,13 +397,6 @@ export default function Example() {
               height={48}
               className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             /> */}
-            <img
-              alt="MGC"
-              src="/logo/MGC.svg"
-              width={158}
-              height={48}
-              className="invert brightness-0 hover:invert-[unset] transition-[filter] duration-300 ease-linear col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-            />
             {/* <img
               alt="WFC"
               src="/logo/WFC.svg"
