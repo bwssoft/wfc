@@ -293,7 +293,11 @@ export default function Example() {
           </div>
           <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
             <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:pt-8">
-              <img alt="Your Company" src="/logo/WFC.svg" className="h-11" />
+              <img
+                alt="Your Company"
+                src="/logo/WFC.svg"
+                className="h-12 w-auto"
+              />
 
               <div className="mt-24 sm:mt-32 lg:mt-16">
                 <a href="#" className="inline-flex space-x-6">
@@ -310,7 +314,7 @@ export default function Example() {
                 </a>
               </div>
               <h1 className="mt-10 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-                WFC Technology
+                WFC TECHNOLOGY
               </h1>
               <p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
                 Soluções inovadoras para rastreamento, IoT e desenvolvimento de
@@ -556,7 +560,7 @@ export default function Example() {
         </div>
 
         {/* CTA section */}
-        <div className="relative isolate mt-32 px-6 py-32 sm:mt-56 sm:py-40 lg:px-8">
+        {/* <div className="relative isolate mt-32 px-6 py-32 sm:mt-56 sm:py-40 lg:px-8">
           <svg
             aria-hidden="true"
             className="absolute inset-0 -z-10 size-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
@@ -600,13 +604,13 @@ export default function Example() {
           </div>
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-              Aumente sua produtividade com a WFC Technology
+              Aumente sua produtividade com a WFC TECHNOLOGY
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg/8 text-gray-300">
               Nossas soluções inteligentes de rastreamento e software garantem
               eficiência, segurança e inovação para o seu negócio.
             </p>
-            {/* <div className="mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
@@ -616,9 +620,9 @@ export default function Example() {
               <a href="#" className="text-sm/6 font-semibold text-white">
                 Saiba mais <span aria-hidden="true">→</span>
               </a>
-            </div> */}
+            </div>
           </div>
-        </div>
+        </div> */}
       </main>
 
       {/* Footer */}
