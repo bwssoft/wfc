@@ -15,6 +15,10 @@ import {
   CubeIcon,
   DocumentTextIcon,
   DevicePhoneMobileIcon as DevicePhoneMobileIconOutline,
+  BellIcon,
+  CodeBracketIcon,
+  ExclamationCircleIcon,
+  ArrowsRightLeftIcon,
 } from "@heroicons/react/24/outline";
 // import { SVGProps } from "react";
 
@@ -191,12 +195,6 @@ const applications = [
     icon: ComputerDesktopIcon,
   },
   {
-    name: "Plataforma de Geração de PIX",
-    description:
-      "Uso interno para criação e gerenciamento de pagamentos via PIX.",
-    icon: ComputerDesktopIcon,
-  },
-  {
     name: "App de Recuperação de Bens",
     description:
       "Aplicativo mobile para facilitar a gestão e monitoramento de bens recuperáveis.",
@@ -241,6 +239,27 @@ const applications = [
     name: "Landing Page da Empresa Hybrid",
     description: "Página de divulgação da empresa de produção de software.",
     icon: DocumentTextIcon,
+  },
+  {
+    name: "Microserviço Detecção de alertas",
+    description:
+      "Monitora eventos em tempo real e identifica alertas com base em regras pré-cadastradas.",
+    icon: ExclamationCircleIcon,
+  },
+  {
+    name: "Microserviço de Tratamento e Distribuição de pacotes",
+    description: "Processa e roteia pacotes de dados entre sistemas.",
+    icon: ArrowsRightLeftIcon,
+  },
+  {
+    name: "Microserviço de Envio de comandos",
+    description: "Gera e transmite comandos para dispositivos IoT.",
+    icon: CodeBracketIcon,
+  },
+  {
+    name: "Microserviço de Notificação em tempo real",
+    description: "Notifica os sistemas em tempo real.",
+    icon: BellIcon,
   },
 ];
 
