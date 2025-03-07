@@ -73,7 +73,7 @@ const secondaryFeatures = [
   {
     name: "Análise Inteligente de Dados",
     description:
-      "Obtenha insights estratégicos para o seu negócio através das nossas plataformas.",
+      "Obtemos insights estratégicos para o nosso negócio através das nossas plataformas.",
     icon: ChartBarIcon,
   },
   {
@@ -485,8 +485,8 @@ export default function Example() {
                 Infraestrutura ágil e escalável
               </p>
               <p className="mt-6 text-lg/8 text-gray-300">
-                Nossa tecnologia foi projetada para crescer junto com o seu
-                negócio, garantindo segurança e eficiência.
+                Nossa tecnologia foi projetada para crescer junto com o negócio
+                dos nossos parceiros, garantindo segurança e eficiência.
               </p>
             </div>
           </div>
@@ -645,9 +645,9 @@ export default function Example() {
       </main>
 
       {/* Footer */}
-      {/* <footer className="mx-auto max-w-7xl px-6 lg:px-8">
+      <footer className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="border-t border-white/10 py-12 md:flex md:items-center md:justify-between">
-          <div className="flex justify-center gap-x-6 md:order-2">
+          {/* <div className="flex justify-center gap-x-6 md:order-2">
             {footerNavigation.social.map((item) => (
               <a
                 key={item.name}
@@ -658,12 +658,12 @@ export default function Example() {
                 <item.icon aria-hidden="true" className="size-6" />
               </a>
             ))}
-          </div>
+          </div> */}
           <p className="mt-8 text-center text-sm/6 text-gray-400 md:order-1 md:mt-0">
             &copy; 2025 WFC Technology, Inc. All rights reserved.
           </p>
         </div>
-      </footer> */}
+      </footer>
     </div>
   );
 }
