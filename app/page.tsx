@@ -1,5 +1,5 @@
 import {
-  ChevronRightIcon,
+  // ChevronRightIcon,
   ShieldCheckIcon,
   GlobeAltIcon,
   DevicePhoneMobileIcon,
@@ -83,12 +83,12 @@ const secondaryFeatures = [
     icon: WrenchIcon,
   },
 ];
-// const stats = [
-//   { id: 1, name: "Clientes Ativos", value: "3.500+" },
-//   { id: 2, name: "Dispositivos Vendidos", value: "3.2M+" },
-//   { id: 3, name: "Tempo de Atividade", value: "99.9%" },
-//   { id: 4, name: "Soluções Implementadas", value: "15+" },
-// ];
+const stats = [
+  { id: 1, name: "Horas dedicadas", value: "80.000+" },
+  { id: 2, name: "Projetos concluídos", value: "8+" },
+  { id: 3, name: "Dias de operação", value: "4.500+" },
+  { id: 4, name: "Investimento acumulado", value: "10M+" },
+];
 // const footerNavigation = {
 //   solutions: [
 //     { name: "Hosting", href: "#" },
@@ -321,15 +321,15 @@ export default function Example() {
               <div className="mt-24 sm:mt-32 lg:mt-16">
                 <a href="#" className="inline-flex space-x-6">
                   <span className="rounded-full bg-blue-500/10 px-3 py-1 text-sm/6 font-semibold text-blue-400 ring-1 ring-inset ring-blue-500/20">
-                    Novidade
+                    Softwares
                   </span>
-                  <span className="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-300">
+                  {/* <span className="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-300">
                     <span>Lora+NB</span>
                     <ChevronRightIcon
                       aria-hidden="true"
                       className="size-5 text-gray-500"
                     />
-                  </span>
+                  </span> */}
                 </a>
               </div>
               <h1 className="mt-10 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
@@ -519,19 +519,21 @@ export default function Example() {
         </div>
 
         {/* Stats */}
-        {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
+        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
             <h2 className="text-base/8 font-semibold text-blue-400">
               Nossa trajetória
             </h2>
             <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-              Confiada por milhares de empresas
+              Inovação e excelência em cada passo
             </p>
             <p className="mt-6 text-lg/8 text-gray-300">
-              Oferecemos tecnologia de ponta para rastreamento e segurança,
-              conectando empresas a soluções inovadoras.
+              Construímos tecnologia de rastreamento e segurança que transforma
+              desafios em soluções inteligentes, sempre com qualidade e
+              compromisso.
             </p>
           </div>
+
           <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
             {stats.map((stat) => (
               <div
@@ -545,7 +547,7 @@ export default function Example() {
               </div>
             ))}
           </dl>
-        </div> */}
+        </div>
 
         {/* Lista de Aplicações WFC */}
         <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
