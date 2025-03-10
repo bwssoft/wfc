@@ -647,7 +647,7 @@ export default function Example() {
       </main>
 
       {/* Footer */}
-      <footer className="mx-auto max-w-7xl px-6 lg:px-8">
+      <footer className="mt-16 mx-auto max-w-7xl px-6 lg:px-8">
         <div className="border-t border-white/10 py-12 md:flex md:items-center md:justify-between">
           {/* <div className="flex justify-center gap-x-6 md:order-2">
             {footerNavigation.social.map((item) => (
